@@ -72,7 +72,7 @@ function Main() {
             <div className="flex  ">
               <PlusIcon
                 className="text-white   cursor-pointer font-extrabold  dark:text-white text-7xl   hover:animate-spinOnce   "
-               
+               style={{fontSize:"38px"}}
                 onClick={increase}
               />
             </div>
@@ -84,7 +84,7 @@ function Main() {
 
             <div className="flex">
               <BsDashLg
-                className="text-white     cursor-pointer font-extrabold text-3xl hover:animate-spinOnce  "
+                className="text-white     cursor-pointer font-extrabold text-4xl hover:animate-spinOnce  "
                 
                 onClick={decrease}
               />
