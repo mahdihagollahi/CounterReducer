@@ -1,0 +1,47 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+  background: url('./assets/Img/Home2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+  
+
+ 
+[data-theme="light"] {
+  --background-color: white;
+  background-image: url('./assets/Img/998901.jpg');
+  --text-color: black;
+  --element-background: rgba(255, 255, 255, 0.17);
+  --element-box-shadow: rgba(0, 0, 0, 0.5);
+}
+
+
+[data-theme="dark"] {
+  --background-color: black;
+  background-image: url('./assets/Img/998901.jpg');
+
+  --text-color: white;
+  --element-background: rgba(0, 0, 0, 0.7);
+  --element-box-shadow: rgba(255, 255, 255, 0.2);
+ 
+}
+
+
+
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+ 
+}
+
+
