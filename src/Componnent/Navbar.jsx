@@ -3,14 +3,15 @@ import React from 'react'
 function Navbar({handleToggle}) {
   return (
     <div>
-        <div className="navbar px-2 bg-base-100">
+        <div className="navbar px-2 bg-base-100 fixed "
+          style={{ backgroundColor: "var(--background)", color:"var(--text-color)"}}>
   <div className="flex-1">
-    <button className="btn btn-ghost text-xl">daisyUI</button>
+    <button className="btn btn-ghost text-xl">Counter</button>
   </div>
-  <div className="flex-none">
+  <div className="flex-none mr-2 ">
     <div className="dropdown dropdown-end">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
-        <div className="indicator">
+        <div className="indicator ">
         <label className="swap swap-rotate">
   
   {/* this hidden checkbox controls the state */}

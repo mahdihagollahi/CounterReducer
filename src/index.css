@@ -5,7 +5,7 @@
 
 
 html{
-  background: url('./assets/Img/Home2.jpg');
+  /* background: url('./assets/Img/Home2.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -18,17 +18,18 @@ html{
  
 [data-theme="light"] {
   --background-color: white;
-  background-image: url('./assets/Img/998901.jpg');
+  --background: white;
+  background-image: url('./assets/Img/img24.jpg');
   --text-color: black;
-  --element-background: rgba(255, 255, 255, 0.17);
+  --element-background: rgba(255, 255, 255, 0.27);
   --element-box-shadow: rgba(0, 0, 0, 0.5);
 }
 
 
 [data-theme="dark"] {
   --background-color: black;
-  background-image: url('./assets/Img/998901.jpg');
-
+  background-image: url('./assets/Img/img24.jpg');
+--background: black;
   --text-color: white;
   --element-background: rgba(0, 0, 0, 0.7);
   --element-box-shadow: rgba(255, 255, 255, 0.2);
