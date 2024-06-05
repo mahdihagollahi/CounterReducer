@@ -82,9 +82,9 @@ function Main() {
              
             </div>
 
-            <div className="flex">
+            <div className="flex hover:animate-spinOnce">
               <BsDashLg
-                className="text-white     cursor-pointer font-extrabold text-4xl hover:animate-spinOnce  "
+                className="text-white     cursor-pointer font-extrabold text-4xl   "
                 
                 onClick={decrease}
               />
